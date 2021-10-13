@@ -6,9 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="02helloworld_annotation" />
+        <module name="03resfulRequest" />
         <module name="01helloWorld" />
+        <module name="06DoData" />
+        <module name="02helloworld_annotation" />
+        <module name="04redirect" />
+        <module name="07SSMproject" />
+        <module name="05redirectAnnotation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

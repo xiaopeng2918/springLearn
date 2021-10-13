@@ -5,5 +5,15 @@
     <file url="file://$PROJECT_DIR$/01helloWorld/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02helloworld_annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02helloworld_annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03resfulRequest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03resfulRequest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04redirect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04redirect/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05redirectAnnotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05redirectAnnotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06DoData/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06DoData/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07SSMproject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07SSMproject/src/main/resources" charset="UTF-8" />
   </component>
 </project>

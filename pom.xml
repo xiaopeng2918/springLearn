@@ -10,6 +10,11 @@
   <modules>
     <module>01helloWorld</module>
     <module>02helloworld_annotation</module>
+      <module>03resfulRequest</module>
+      <module>04redirect</module>
+    <module>05redirectAnnotation</module>
+    <module>06DoData</module>
+    <module>07SSMproject</module>
   </modules>
   <packaging>pom</packaging>
 
