@@ -15,6 +15,7 @@
     <module>05redirectAnnotation</module>
     <module>06DoData</module>
     <module>07SSMproject</module>
+      <module>08SSMproject2</module>
   </modules>
   <packaging>pom</packaging>
 

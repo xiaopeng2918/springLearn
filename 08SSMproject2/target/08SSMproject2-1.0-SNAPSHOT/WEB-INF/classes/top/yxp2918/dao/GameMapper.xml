@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.yxp2918.dao.GameMapper">
+    <!--    根据id查找一个游戏-->
+    <select id="queryGameById" resultType="Game">
+        select *
+        from computergame
+        where id = #{id}
+    </select>
+    <!--    根据id更新一个游戏-->
+    <update id="updateGameById" parameterType="Game">
+        update computergame
+        set name  = #{name},
+            alias = #{alias}
+        where id = #{id}
+    </update>
+    <!--    根据id删除一个游戏-->
+    <delete id="deleteGameById">
+        delete
+        from computergame
+        where id = #{id}
+    </delete>
+    <!--    增加一个游戏-->
+    <insert id="addGame" parameterType="Game">
+        <!-- 当表为空时，id设置为1
+        当表不为空时，id设置为当前最大id加1   -->
+        <selectKey keyProperty="id" resultType="int" order="BEFORE">
+            select if(max(id) is null,1,max(id)+1) as bookID from computergame
+        </selectKey>
+        insert into computergame (id,name, alias)
+        values (#{id},#{name},#{alias});
+    </insert>
+    <!--    查询全部游戏-->
+    <select id="queryAllGame" resultType="Game">
+        select *
+        from computergame;
+    </select>
+</mapper>

@@ -13,6 +13,7 @@
         <module name="04redirect" />
         <module name="07SSMproject" />
         <module name="05redirectAnnotation" />
+        <module name="08SSMproject2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

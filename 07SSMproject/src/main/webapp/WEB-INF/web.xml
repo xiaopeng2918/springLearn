@@ -21,6 +21,7 @@
   </servlet-mapping>
 
   <!--encodingFilter-->
+<!-- 解决乱码-->
   <filter>
     <filter-name>encodingFilter</filter-name>
     <filter-class>
@@ -37,6 +38,7 @@
   </filter-mapping>
 
   <!--Session过期时间-->
+<!--  交互间隔最多15分钟-->
   <session-config>
     <session-timeout>15</session-timeout>
   </session-config>
